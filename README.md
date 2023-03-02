@@ -40,11 +40,11 @@ The extension parameter can be changed in the extension settings tab.
 
 ## Before Usage
 
-Open andrealoretti.vscode-logger-1.0.5: 
+Open andrealoretti.vscode-logger-1.0.5 from : 
 
-Windows: %USERPROFILE%\. vscode\extensions. 
-macOS: ~/.vscode/extensions 
-Linux: ~/.vscode/extensions 
+Windows: %USERPROFILE%\.vscode\extensions \\
+macOS: ~/.vscode/extensions \\
+Linux: ~/.vscode/extensions \\
 
 ... then run from CLI "npm i" with highest privileges.
 
