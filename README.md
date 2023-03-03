@@ -42,7 +42,7 @@ The extension parameter can be changed in the extension settings tab.
 
 Open andrealoretti.vscode-logger-1.0.5 from : 
 
-Windows: %USERPROFILE%\.vscode\extensions
+Windows: %USERPROFILE%\\.vscode\\extensions
 
 macOS: ~/.vscode/extensions
 
