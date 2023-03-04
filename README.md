@@ -1,60 +1,36 @@
-# vscode-logger README
-
-This extension helps you store your code metrics through a continuose activity monitoring such: lines, comments and tests added, modified or deleted. At the same time it also keeps track of the session time and files explorated.
-
-## How to use
-
-After the installation in the Explorer Tab will appear a teardown window named "VS-LOGGER", from there you can login by inserting your credentials and server address in the form.
-
-## Features
-
-Credentials persistence trough differents sessions, local DB storing alla offline data while it waits for server connection. The exstension autostart with vscode.
-
-
-## Requirements
-
-To work properly this extension need a internet connection.
-
-
-## Extension Settings
-
-The extension parameter can be changed in the extension settings tab.
-
-
-## How to install without VS Code Marketplace
-
-1) Open VS Code.
-
-2) Open the “Extensions” sidebar (you can use “Ctrl+Shift+X”).
-
-3) Click on the ellipsis icon in the top right corner of the menu.
-
-4) Select “Install from VSIX…”
-
-5) VS Code will open a document browser. Locate the .VSIX file you transferred and select it.
-
-6) VS Code will now begin the installation process of the extension.
-
-7) After the extension has been installed, you’ll be able to see it in the “Extensions “menu and manage it accordingly.
-
-
-## Before Usage
-
-Open andrealoretti.vscode-logger-1.0.5 from : 
-
-Windows: %USERPROFILE%\\.vscode\\extensions
-
-macOS: ~/.vscode/extensions
-
-Linux: ~/.vscode/extensions
-
-... then run from CLI "npm i" with highest privileges.
-
-Example: sudo npm i
+# VS Code Logger
+This extension helps to store your code metrics (lines, comments and tests added, modified or deleted) through a continuose activity monitoring.\
+At the same time it keeps track of the session time and explorated files.
 
 
 ## Credits
+The original repository of this project can be found [here](https://github.com/Stintipacchio/VScode-Logger).\
+This extension is a porting of the Atom package [atom-logger](https://github.com/elPeroN/atom-logger.git).
 
-This extension is a porting of the atom package "atom-logger" (https://github.com/elPeroN/atom-logger.git)
+
+## How to use
+After the installation, in the Explorer Tab will appear a teardown window named "VS-LOGGER". From there you can login by inserting your credentials and the server address.
 
 
+## Features
+Credentials persistence through differents sessions.\
+A local DB stores all offline data while server is not available.\
+The extension autostarts with VS Code.
+
+
+## Extension Settings
+The extension parameter can be changed in its settings tab.
+
+
+## Installation
+1. Download the compiled package
+2. In VS Code, open the **Command palette** (`Ctrl+Shift+P`) and search for `Extensions: install from VSIX`
+3. Select the `.vsix` file
+
+## Installation from source
+1. Install the required packeges and build the extension by running
+    ```
+    npm install
+    npm run build
+    ```
+2. Follow the Installation section
